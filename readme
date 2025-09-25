@@ -1,0 +1,21 @@
+AI-Powered Diabetes Risk Assessment 🩺 This project is a web-based application designed to predict a user's risk of having diabetes based on key health indicators. It features a machine learning model built with Keras/TensorFlow and a user-friendly web interface created with Flask.
+
+The application goes beyond simple prediction by integrating with the Google Gemini API to provide dynamic, personalized health recommendations for users identified as high-risk, alongside general dietary guidelines.
+
+Features ✨ Machine Learning Model: A sequential neural network trained on the CDC's BRFSS dataset, covering over 250,000 diverse samples for robust predictions.
+
+Interactive Web Interface: A modern, responsive two-column dashboard built with Flask and Jinja2 that allows for easy data entry.
+
+Dynamic AI Recommendations: For high-risk predictions, the app calls the Google Gemini API to generate personalized, actionable health advice based on the user's specific inputs.
+
+Static Dietary Guidance: Provides safe, general food recommendations (foods to eat/avoid) for both high and low-risk outcomes.
+
+User-Friendly Design: The interface includes a loading state for the prediction button and organizes results and recommendations into clean, easy-to-read cards.
+
+Tech Stack 🛠️ Backend: Python, Flask
+
+Machine Learning: TensorFlow, Keras, Scikit-learn, Pandas, NumPy
+
+AI Integration: Google Gemini API
+
+Frontend: HTML, CSS, Jinja2, Alpine.js (for minor interactivity)

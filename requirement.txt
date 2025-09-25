@@ -1,0 +1,10 @@
+# requirements.txt
+
+tensorflow
+scikit-learn
+pandas
+numpy
+Flask
+python-dotenv
+google-generativeai
+gunicorn
